@@ -1,6 +1,6 @@
 from flask import Flask, render_template, Response
 import cv2
-from tensorflow.keras.preprocessing.image import img_to_array
+from keras_preprocessing.image import img_to_array
 import numpy as np
 from tensorflow.keras.models import model_from_json
 
